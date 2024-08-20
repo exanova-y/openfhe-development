@@ -736,3 +736,4 @@ install(FILES
 # Install the export set for use with the install-tree
 install(EXPORT OpenFHETargets DESTINATION
   "${INSTALL_CMAKE_DIR}" COMPONENT dev)
+add_compile_options(-Wno-error=array-bounds)
